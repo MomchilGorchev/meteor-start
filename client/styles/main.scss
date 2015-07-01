@@ -1,7 +1,16 @@
-@import 'general/normalize';
+// --------------------------------
+// - MAIN
+// --------------------------------
+
+// GENERAL - helper partials and logic/variables
 @import 'general/vars';
 @import 'general/mixins';
+
+@import 'general/normalize';
+@import 'general/base';
+@import 'general/grid';
 @import 'general/keyframes';
 
+// COMPONENTS - single components styles
 @import 'components/layout';
 

@@ -1,0 +1,36 @@
+// --------------------------------
+// - BASE
+// --------------------------------
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $main-font-family;
+  font-size: $main-font-size;
+  color: $main-font-color;
+}
+
+b {
+  font-family: $bold-font-family;
+}
+
+.content {
+  margin-bottom: $footer-total-height + ($base-unit * 2);
+}
+
+.bg {
+  clear: both;
+  overflow: hidden;
+
+  &--brand {
+    background-color: $brand-color;
+  }
+
+  &--light {
+    background-color: $light-color;
+  }
+}
